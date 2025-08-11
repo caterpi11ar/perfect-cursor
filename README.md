@@ -30,18 +30,18 @@
     <!-- end list -->
 
     ```typescript
-    // /src/services/user_service._gold.ts
+        // /src/services/user_service._gold.ts
 
-/**
- * @description 获取用户配置信息.
- * 始终使用 'useSWR' 进行数据获取，以确保自动缓存、请求去重和后台刷新。
- * 这是我们团队处理客户端数据请求的黄金标准。
- * @param userId - 用户的唯一标识符
- */
-export function useUserProfile(userId: string) {
-  // ... 具体实现
-}
-```
+        /**
+         * @description 获取用户配置信息.
+        * 始终使用 'useSWR' 进行数据获取，以确保自动缓存、请求去重和后台刷新。
+        * 这是我们团队处理客户端数据请求的黄金标准。
+        * @param userId - 用户的唯一标识符
+        */
+        export function useUserProfile(userId: string) {
+        // ... 具体实现
+        }
+    ```
 
 ---
 
