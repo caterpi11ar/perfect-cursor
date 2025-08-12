@@ -3,15 +3,39 @@ description:
 globs:
 alwaysApply: true
 ---
+
 # 项目背景
 
+## 项目开发规范与流程指南
+> **原则**：除非有明确要求，否则请勿更改现有实现。所有开发必须遵循以下规范。
 
+---
 
-# 编码规范
+## 编码规范
 
-- 使用 TypeScript 和 React 书写
-- 避免引入新依赖，严控打包体积
-- 兼容现代浏览器
-- 支持服务端渲染
-- 保持向下兼容，避免 breaking change
-- 合理使用 React.memo、useMemo 和 useCallback 优化性能
+1. **技术栈**：统一使用 **TypeScript + React** 进行开发  
+2. **浏览器支持**：确保兼容所有现代浏览器  
+3. **版本兼容**：保持向下兼容，严禁引入破坏性变更（Breaking Change）  
+4. **性能优化**：合理使用 `React.memo`、`useMemo`、`useCallback` 等 API 提升性能  
+
+---
+
+## 项目目录结构
+
+| 模块类型 | 存放位置 | 最佳实践参考 |
+|----------|----------|--------------|
+| 页面文件 | `src/pages/` | `src/pages/evaluation/structured/dataset` |
+| 弹窗组件 | 与业务页面同级目录下 `components/` | `src/pages/data/lake/raw-data/dc-dataset/components/batchProcess/BatchProcess.tsx` |
+| 类型定义 | `types/` | `types/evaluation/structured/dataset` |
+| 接口封装 | `src/api/` | `src/api/services/evaluation/structured/dataset` |
+| 国际化资源 | `src/locales/` | — |
+| 工具脚本 | `scripts/api` | — |
+
+---
+
+## 新模块开发流程
+
+### 1. 新页面开发
+1. 接收开发任务后运行：
+   ```bash
+   pnpm run api --path [接口定义路径]
