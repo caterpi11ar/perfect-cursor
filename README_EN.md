@@ -146,7 +146,7 @@ perfect-cursor/
 
 ## 🤝 Contributing
 
-We welcome all forms of contributions! Please check our [Contributing Guide](CONTRIBUTING.md) for details.
+We welcome all forms of contributions! Please check our [Contributing Guide](.github/CONTRIBUTING.md) for details.
 
 ### Types of Contributions
 

@@ -146,7 +146,7 @@ perfect-cursor/
 
 ## 🤝 贡献指南
 
-我们欢迎所有形式的贡献！请查看我们的 [贡献指南](CONTRIBUTING.md) 了解详情。
+我们欢迎所有形式的贡献！请查看我们的 [贡献指南](.github/CONTRIBUTING.md) 了解详情。
 
 ### 贡献类型
 
