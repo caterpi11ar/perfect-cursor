@@ -9,6 +9,8 @@
 [![Documentation](https://img.shields.io/badge/Documentation-Complete-green.svg)](./CONFIGURATION_CN.md)
 [![English](https://img.shields.io/badge/English-README_EN.md-blue.svg)](./README_EN.md)
 
+简体中文 | [English](README_EN.md)
+
 ---
 
 ## ✨ 特性特性
